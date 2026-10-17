@@ -32,7 +32,7 @@ PAML organizes machine capabilities into two principal categories: **Personal Ma
 
 ### 2.3 Machines in the Automation Workcell
 
-The experimental workcell consists of four primary subsystems: an edge supervisory computer, a machine-vision system, a conveyor system, and a robot manipulation system. The edge computer performs supervisory reasoning and orchestration, the vision system provides perception and physical verification, the conveyor controls object transportation and positioning, and the robot performs physical manipulation and sorting.
+The experimental workcell consists of four primary subsystems: (a) an edge supervisory computer, (b) a machine-vision system, (c) a conveyor system, and (d) a robot manipulation system. The edge computer performs supervisory reasoning and orchestration, the vision system provides perception and physical verification, the conveyor controls object transportation and positioning, and the robot performs physical manipulation and sorting.
 
 ### 2.4 Experimental Platform
 
