@@ -1,4 +1,4 @@
-# 🤖 Prompt as Machine Language (PAML)
+# 🤖 Conversational Automation
 
 ## A Verified Skill-Orchestration Architecture for Conversational Industrial Automation
 
