@@ -12,19 +12,9 @@
 
 ## 🧠 1. PAML Overview
 
-### 1.1 Introduction
-
 **Prompt as Machine Language (PAML)** is a conversational industrial-automation framework that translates natural-language instructions into validated machine operations. Instead of requiring the user to directly program robot trajectories, G-code commands, or device-specific control logic, PAML allows the intended task outcome to be expressed in natural language. The system interprets the instruction, generates a structured task plan, selects appropriate machine skills, coordinates the machines in the workcell, and verifies whether the intended physical outcome has been achieved.
 
 PAML operates as a supervisory layer above conventional robot programs, G-code, PLC logic, and embedded device commands. The large language model is responsible for high-level reasoning, task decomposition, semantic interpretation, and machine-skill orchestration, while deterministic local controllers remain responsible for real-time motion control, feedback loops, operating limits, interlocks, and emergency actions. This separation establishes a clear machine-authority boundary between language-based supervisory reasoning and safety-critical device execution.
-
-### 1.2 Core Concept
-
-The core concept of PAML is to treat a natural-language prompt as an **intent-level machine instruction** rather than as a direct actuator command. The user specifies what should be achieved, while PAML determines how the available machines and skills should be combined to achieve that objective. Execution proceeds through state and workspace grounding, prompt interpretation, structured task planning, machine-skill selection, skill validation, multi-machine orchestration, deterministic execution, and physical-outcome verification. When the observed result does not satisfy the intended task, recovery is limited to predefined and validated machine capabilities.
-
-### 1.3 Main Contributions
-
-The main contribution of PAML is an intent-level machine-programming abstraction that combines natural-language task specification with reusable machine skills, explicit machine-authority boundaries, deterministic local execution, and physical-outcome verification. The framework supports state-grounded interpretation, semantic and context-dependent reasoning, heterogeneous-machine orchestration, failure attribution, and bounded recovery while preserving deterministic control at the device level.
 
 ---
 
