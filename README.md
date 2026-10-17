@@ -36,7 +36,7 @@ The experimental workcell is organized around four primary subsystems that repre
 
 ### 2.4 Experimental Platform
 
-The experimental platform integrates the supervisory computer, machine-vision system, conveyor, robot, sensors, and local controllers into a single automation workcell. This arrangement allows PAML to evaluate natural-language task execution across perception, transport, manipulation, and verification within a physically connected system.
+The experimental platform is a laboratory-scale automation workcell developed for research and education. It integrates the key elements of a modern automation cell and serves as a testbed for PAML and next-generation automation concepts.
 
 [Insert Photograph of Experimental Workcell]
 
