@@ -38,7 +38,13 @@ The experimental workcell is organized around four primary subsystems that repre
 
 The experimental platform is a laboratory-scale automation workcell developed for research and education. It integrates the key elements of a modern automation cell and serves as a testbed for PAML and next-generation automation concepts.
 
-4.png
+<p align="center">
+  <img src="Figures/4.png" width="800">
+</p>
+
+<p align="center">
+  <em>Figure 1. Experimental Work Cells</em>
+</p>
 
 ---
 
