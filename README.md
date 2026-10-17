@@ -24,7 +24,7 @@ PAML operates as a supervisory layer above conventional robot programs, G-code, 
 
 The PAML architecture connects the user, the language-model-based supervisory layer, the machine-skill registry, deterministic local controllers, and the physical automation workcell. A user instruction is first interpreted in the context of the available machine state and workspace information. The supervisory system then generates a structured execution plan, selects validated machine skills, and coordinates their execution through the corresponding device controllers. The final physical outcome is observed and verified before the mission is considered complete.
 
-[Insert PAML System Architecture Diagram]
+4.png
 
 ### 2.2 Machine-Skill Categories
 
@@ -38,7 +38,7 @@ The experimental workcell is organized around four primary subsystems that repre
 
 The experimental platform is a laboratory-scale automation workcell developed for research and education. It integrates the key elements of a modern automation cell and serves as a testbed for PAML and next-generation automation concepts.
 
-[Insert Photograph of Experimental Workcell]
+![PAML System Architecture](Figures/4.png)
 
 ---
 
